@@ -1,0 +1,15 @@
+{
+  "name": "tpapi.js",
+  "version": "1.0.0",
+  "description": "Custom API for Tazhys.Solutions Site",
+  "main": "tpapi.js",
+  "dependencies": {
+    "wumpfetch": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BetterOffDead",
+  "license": "GPL-3.0"
+}
