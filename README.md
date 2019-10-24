@@ -1,6 +1,6 @@
 # tpapi.js
 
-## Example Usage
+## Example Usage (Javascript)
 
 ```js
 const TPAPI = require('@nightcoredev/tpapi');
@@ -13,7 +13,8 @@ module.exports = (client) => {
                 console.log(`Guild Stats Error\n${r.body.message}`);
             }
         }).catch((err) => {
-            Logger(err, "discord.boats");
+            console.log(err);
         });
 };
 ```
+
